@@ -1,0 +1,41 @@
+---
+cmd: po pi build
+
+targets:
+  Build:
+    args:
+      - pi
+      - build
+    cmd: po
+    keymap: ctrl-alt-1
+    name: Build
+  Flash:
+    args:
+      - pi
+      - flash
+    cmd: po
+    keymap: ctrl-alt-2
+    name: Flash
+  Clean:
+    args:
+      - pi
+      - clean
+    cmd: po
+    keymap: ctrl-alt-3
+    name: Clean
+  DFU:
+    args:
+      - pi
+      - dfu
+    cmd: po
+    keymap: ctrl-alt-4
+    name: DFU
+  OTA:
+    args:
+      - pi
+      - ota
+      - --multi
+    cmd: po
+    keymap: ctrl-alt-5
+    name: DFU
+        
